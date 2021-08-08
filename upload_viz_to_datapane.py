@@ -5,7 +5,7 @@ import datapane as dp
 # =====================================
 #  Network 1 - Subset Data (Repulsion)
 # =====================================
-with open('drug_interactions_network_subset_repulsion.html', 'r') as f:
+with open('visualization_html/drug_interactions_network_subset_repulsion.html', 'r') as f:
     html_network_1 = f.read()
 
 dp.Report(
@@ -17,7 +17,7 @@ dp.Report(
 # =====================================
 #  Network 2 - Subset Data (Barnes_Hut)
 # =====================================
-with open('drug_interactions_network_subset_barnes.html', 'r') as f:
+with open('visualization_html/drug_interactions_network_subset_barnes.html', 'r') as f:
     html_network_2 = f.read()
 
 dp.Report(
@@ -29,7 +29,7 @@ dp.Report(
 # =====================================
 #         Network 3 - Phenytoin
 # =====================================
-with open('drug_interactions_network_phenytoin.html', 'r') as f:
+with open('visualization_html/drug_interactions_network_phenytoin.html', 'r') as f:
     html_network_3 = f.read()
 
 dp.Report(

@@ -6,9 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
-# Hide DP-cache and HTML files
+# Hide DP-cache
 dp-cache
-*.html
 
 # CSV files (user to unzip from zip files to get these data)
 *.csv
